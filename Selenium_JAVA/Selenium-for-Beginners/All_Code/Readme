@@ -1,1 +1,27 @@
+Description of all code: TO BE UPDATED SOON
+
+Case1: Normal Test without TestNG
+Postivetest_1.java=>Case1-1
+Postivetest_2.java=>Case1-2
+Postivetest_3.java=>Case1-3
+Negativetest_1.java=>case2-2 (2-1 and 2-2, different on firefox and chrome)
+
+
+Case2: Using TestNG to Run(@test)
+2-1: Used Chrome driver to run one case, mark //@test, to run one case
+2-2: Run two case, one use firefox, another one used chrome. remove //@test and run 2 test
+When run TestNG on AllTest.xml, it will run all test, postive.java and negative.java
+order: 
+postive: loginTest
+Negative:incorrectPasswordTest, incorrectUsernameTest
+
+Case3:Run Negative.xml,[Priority paramter in @test}
+All use NegativeTests.xml to run it
+NegativeTests_1_priority.java
+NegativeTests_2_enable.java
+
+
+Case4 send parmater in fucntion
+NegativeTests.xml
+NegativeTests.java
 
