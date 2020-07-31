@@ -1,0 +1,9 @@
+{
+  "defaultCommandTimeout": 6000,
+  "pageLoadTimeout": 60000,
+  "reporter": "mochawesome",
+  "env": {
+    "url": "https://rahulshettyacademy.com/angularpractice/"
+  },
+  "projectId": "dsgtsx"
+}

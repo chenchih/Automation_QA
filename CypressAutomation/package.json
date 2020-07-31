@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "open": "node_modules\\.bin\\cypress open",
+    "headtest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashBoardTest": "npm run test -- ----record --key ffe97025-7781-49e6-9492-fbeda0ca3da6 --reporter mochawesome",
+    "test_folder":"npm run test -- --spec \"cypress/integration/test_folder/*\""
+  },
+  "author": "chenchih",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.8.0",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1"
+  }
+}
