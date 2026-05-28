@@ -14,7 +14,7 @@
   "author": "chenchih",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.8.0",
+    "cypress": "^15.16.0",
     "cypress-iframe": "^1.0.1",
     "mocha": "^8.0.1",
     "mochawesome": "^6.1.1"
