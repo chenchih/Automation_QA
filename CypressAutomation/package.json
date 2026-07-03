@@ -16,7 +16,7 @@
   "devDependencies": {
     "cypress": "^4.8.0",
     "cypress-iframe": "^1.0.1",
-    "mocha": "^8.0.1",
+    "mocha": "^11.7.6",
     "mochawesome": "^6.1.1"
   }
 }
